@@ -1,0 +1,12 @@
+# Local .terraform, terraform.lock.hcl directories
+**/.terraform/*
+**/.terraform.lock.hcl/*
+.terraform.lock.hcl
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.env
